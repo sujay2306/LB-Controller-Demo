@@ -10,3 +10,8 @@ It satisfies Kubernetes Service resources by provisioning Network Load Balancers
 ```bash
 https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
 ```
+
+## view ingress
+```bash
+kubectl get ingress -n game-2048
+```
